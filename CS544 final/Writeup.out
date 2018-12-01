@@ -1,0 +1,48 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}
+\BOOKMARK [1][-]{section.2}{VMCS}{}
+\BOOKMARK [2][-]{subsection.2.1}{Introduction of VMCS}{section.2}
+\BOOKMARK [2][-]{subsection.2.2}{VMCS Region}{section.2}
+\BOOKMARK [2][-]{subsection.2.3}{Types of VMCS}{section.2}
+\BOOKMARK [2][-]{subsection.2.4}{VMCS Data}{section.2}
+\BOOKMARK [2][-]{subsection.2.5}{Guest-state area}{section.2}
+\BOOKMARK [2][-]{subsection.2.6}{Host-state area}{section.2}
+\BOOKMARK [2][-]{subsection.2.7}{VM-execution control fields}{section.2}
+\BOOKMARK [2][-]{subsection.2.8}{VM-Exit Control Fields}{section.2}
+\BOOKMARK [2][-]{subsection.2.9}{VM-Entry Control Fields}{section.2}
+\BOOKMARK [2][-]{subsection.2.10}{VM-Exit Information Fields}{section.2}
+\BOOKMARK [2][-]{subsection.2.11}{VM-Instruction Error Field}{section.2}
+\BOOKMARK [1][-]{section.3}{CentOS7 install}{}
+\BOOKMARK [2][-]{subsection.3.1}{Installation}{section.3}
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Make USB flash disk}{subsection.3.1}
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Install CentOS}{subsection.3.1}
+\BOOKMARK [1][-]{section.4}{Install Linux 4.1.5}{}
+\BOOKMARK [2][-]{subsection.4.1}{Download Linux 4.1.5}{section.4}
+\BOOKMARK [2][-]{subsection.4.2}{Configuration}{section.4}
+\BOOKMARK [2][-]{subsection.4.3}{Menuconfig}{section.4}
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Setup}{subsection.4.3}
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Enable Loadable module support}{subsection.4.3}
+\BOOKMARK [3][-]{subsubsection.4.3.3}{Enable the block layer}{subsection.4.3}
+\BOOKMARK [3][-]{subsubsection.4.3.4}{I/O schedulers}{subsection.4.3}
+\BOOKMARK [3][-]{subsubsection.4.3.5}{Types and Features of Processor}{subsection.4.3}
+\BOOKMARK [3][-]{subsubsection.4.3.6}{Power management and ACPI options}{subsection.4.3}
+\BOOKMARK [3][-]{subsubsection.4.3.7}{Device Drivers}{subsection.4.3}
+\BOOKMARK [3][-]{subsubsection.4.3.8}{Networking support}{subsection.4.3}
+\BOOKMARK [3][-]{subsubsection.4.3.9}{File system}{subsection.4.3}
+\BOOKMARK [1][-]{section.5}{Implementing a sysfs interface to the VMCS}{}
+\BOOKMARK [2][-]{subsection.5.1}{Kconfig}{section.5}
+\BOOKMARK [2][-]{subsection.5.2}{Kobject}{section.5}
+\BOOKMARK [3][-]{subsubsection.5.2.1}{How to manage and control Kobject}{subsection.5.2}
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Reference Counts}{subsection.5.2}
+\BOOKMARK [3][-]{subsubsection.5.2.3}{kref}{subsection.5.2}
+\BOOKMARK [2][-]{subsection.5.3}{Ktypes}{section.5}
+\BOOKMARK [2][-]{subsection.5.4}{Sysfs}{section.5}
+\BOOKMARK [3][-]{subsubsection.5.4.1}{Add and Delete kobject from sysfs}{subsection.5.4}
+\BOOKMARK [3][-]{subsubsection.5.4.2}{Add file into sysfs}{subsection.5.4}
+\BOOKMARK [2][-]{subsection.5.5}{Implementation}{section.5}
+\BOOKMARK [3][-]{subsubsection.5.5.1}{Makefile}{subsection.5.5}
+\BOOKMARK [1][-]{section.6}{How to modify the code}{}
+\BOOKMARK [1][-]{section.7}{Source Code}{}
+\BOOKMARK [1][-]{section.8}{Test}{}
+\BOOKMARK [2][-]{subsection.8.1}{Test Read}{section.8}
+\BOOKMARK [2][-]{subsection.8.2}{Test Write}{section.8}
+\BOOKMARK [1][-]{section*.2}{References}{}
